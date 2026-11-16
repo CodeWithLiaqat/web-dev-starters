@@ -13,7 +13,7 @@ MIT licensed. No tracking, no CDN.
 
 ## About the author
 **Liaqat Ali Khan**: full-stack engineer (Next.js, React, WordPress/Elementor, WooCommerce, AI chatbots, technical SEO). Available for client work.
-- Portfolio: https://liaqatali.dev
+- Portfolio: https://codeics.me
 - Company: https://miavrosystems.com
 - Fiverr: codewithliaqat | [LinkedIn](https://www.linkedin.com/in/codeics) | [GitHub](https://github.com/CodeWithLiaqat)
 
