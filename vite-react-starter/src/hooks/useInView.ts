@@ -9,6 +9,7 @@ export function useInView<T extends Element>(options: IntersectionObserverInit &
     const el = ref.current;
     if (!el || typeof IntersectionObserver === "undefined") { setInView(true); return; }
     const obs = new IntersectionObserver(([entry]) => {
+      if (!entry) return;
       if (entry.isIntersecting) { setInView(true); if (once) obs.disconnect(); }
       else if (!once) setInView(false);
     }, { threshold: 0.15, ...io });

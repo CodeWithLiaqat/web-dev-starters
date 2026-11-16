@@ -1,5 +1,7 @@
 # Web Dev Starters
 
+[![CI](https://github.com/CodeWithLiaqat/web-dev-starters/actions/workflows/ci.yml/badge.svg)](https://github.com/CodeWithLiaqat/web-dev-starters/actions/workflows/ci.yml) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 Small, production-minded starters and snippets I use on client projects. Copy what you need.
 
 | Folder | Stack | What you get |
@@ -14,3 +16,10 @@ MIT licensed. No tracking, no CDN.
 - Portfolio: https://liaqatali.dev
 - Company: https://miavrosystems.com
 - Fiverr: codewithliaqat | [LinkedIn](https://www.linkedin.com/in/codeics) | [GitHub](https://github.com/CodeWithLiaqat)
+
+## Quality bar
+- TypeScript `strict` + `noUncheckedIndexedAccess`
+- Unit tests (Vitest) for logic and the API route
+- GitHub Actions CI: typecheck, test and build for every project on each push and PR
+- Accessibility-first components, `prefers-reduced-motion` respected
+- Security: input validation, honeypot, time trap, rate limiting, security headers, XSS-safe JSON-LD
