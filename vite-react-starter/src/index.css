@@ -1,0 +1,7 @@
+body { margin:0; font-family: system-ui, sans-serif; line-height:1.6; }
+main { max-width: 720px; margin: 0 auto; padding: 3rem 1.5rem; }
+.reveal { opacity:0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
+.reveal.is-in { opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+.acc button { width:100%; text-align:left; padding:.9rem 0; background:none; border:0; border-bottom:1px solid #0002; font:inherit; font-weight:600; cursor:pointer; }
+.acc p { margin:.5rem 0 1rem; }

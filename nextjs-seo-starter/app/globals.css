@@ -1,0 +1,10 @@
+:root { --ink:#151b21; --accent:#bb9052; --bg:#fdf9f4; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+main { max-width: 720px; margin: 0 auto; padding: 4rem 1.5rem; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height:1.1; }
+.form { display:grid; gap:1rem; position:relative; }
+.form label { display:grid; gap:.35rem; font-weight:600; }
+.form input, .form textarea { font:inherit; padding:.7rem .9rem; border:1px solid #0003; border-radius:10px; }
+.form button { padding:.8rem 1.4rem; border:0; border-radius:999px; background:var(--accent); color:#fff; font-weight:600; cursor:pointer; }
+.form button:disabled { opacity:.6; }
